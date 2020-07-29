@@ -15,13 +15,21 @@
         padding: 10px;
         border-bottom: 1px solid #dadada;
       }
+      h3 {
+	text-align : right;
+      }
+      #table_title{
+	height:30px;
+	background-color:#eeeeee;
+      }
 </style>
 </head>
 <body>
 	<h1>'2020년 8월' 상영 뮤지컬 리스트</h1>
+	<h3> 이번 달 특가 이벤트 <button type="button" onclick="location.href='http://ihyhnoobnust4839986.cdn.ntruss.com/main.html' ">확인</button></h3>
 	<table>
 		<thead>
-			<tr>
+			<tr id="table_title">
 			<th>제목</th>
 			<th>날짜</th>
 			<th>가격</th>
